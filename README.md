@@ -239,7 +239,6 @@ MAVEN_HOME: /opt/maven
 Item name: FirstMavenproject
 Type: Maven Project
 Description: First Maven Project
-Git
 Root POM: pom.xml
 Goals and options: clean install
 ```
@@ -359,7 +358,7 @@ pwd: deployer
 - Now we can create our next job with name `BuildAndDeployJob`. After build step,the artifact will get stored under `webapp/target/` directory as `webapp.war`
 ```
 Kind: Maven Project
-SCM: https://github.com/yash-s-patil/hello-world.git
+SCM:
 Goal and options: clean install
 Post Build Actions: Deploy war/ear to a container
 WAR/EAR files: **/*.war
