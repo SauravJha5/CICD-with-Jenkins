@@ -911,7 +911,6 @@ ssh-server: ansible_server
 Exec command: ansible-playbook /opt/docker/regapp.yml
 ```
 - Now when we update the source code, jenkins trigger the job, copy artifacts onto ansible, ansible create an image and deploy that image onto docker hub.
-![image](https://user-images.githubusercontent.com/56789226/220843792-25138fc8-0274-4d1e-af01-9ba0543b7b89.png)
 
 ## How to create container on dockerhost using ansible playbook
 - We will create an ansible playbook in `/opt/docker` to create a container.
