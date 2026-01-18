@@ -240,7 +240,6 @@ Item name: FirstMavenproject
 Type: Maven Project
 Description: First Maven Project
 Git
-Repository URL: https://github.com/yash-s-patil/hello-world.git
 Root POM: pom.xml
 Goals and options: clean install
 ```
